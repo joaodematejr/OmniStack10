@@ -1,0 +1,8 @@
+
+//MÉTODOS HTTP: GET/POST/PUT/DELETE
+
+//TIPOS DE PARÂMETROS:
+
+//QUERY PARAMS: req.query(FITROS, ORDENAÇÃO, PAGINAÇÃO,...)
+//ROUTE PARAMS: request.params(Identificar um recurso na alteração ou remoção)
+//BODY: request.body (DADOS PARA CRIAÇÃO OU ALTERAÇÃO DE UM REGISTRO)

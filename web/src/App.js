@@ -92,10 +92,11 @@ function App() {
               <img src="https://avatars0.githubusercontent.com/u/15802727?s=460&v=4" alt="Habal" />
               <div className="user-info">
                 <strong>
-                  <span>
-                    ReactJS, React-Native, NodeJS
-                  </span>
+                  João Dematé
                 </strong>
+                <span>
+                  ReactJS, React-Native, NodeJS
+                  </span>
               </div>
             </header>
             <p>
@@ -109,10 +110,11 @@ function App() {
               <img src="https://avatars0.githubusercontent.com/u/15802727?s=460&v=4" alt="Habal" />
               <div className="user-info">
                 <strong>
-                  <span>
-                    ReactJS, React-Native, NodeJS
-                  </span>
+                  João Dematé
                 </strong>
+                <span>
+                  ReactJS, React-Native, NodeJS
+                  </span>
               </div>
             </header>
             <p>
@@ -125,10 +127,11 @@ function App() {
               <img src="https://avatars0.githubusercontent.com/u/15802727?s=460&v=4" alt="Habal" />
               <div className="user-info">
                 <strong>
-                  <span>
-                    ReactJS, React-Native, NodeJS
-                  </span>
+                  João Dematé
                 </strong>
+                <span>
+                  ReactJS, React-Native, NodeJS
+                  </span>
               </div>
             </header>
             <p>
@@ -141,10 +144,11 @@ function App() {
               <img src="https://avatars0.githubusercontent.com/u/15802727?s=460&v=4" alt="Habal" />
               <div className="user-info">
                 <strong>
-                  <span>
-                    ReactJS, React-Native, NodeJS
-                  </span>
+                  João Dematé
                 </strong>
+                <span>
+                  ReactJS, React-Native, NodeJS
+                  </span>
               </div>
             </header>
             <p>

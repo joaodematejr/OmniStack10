@@ -1,7 +1,9 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const routes = require('./routes')
+const http = require('http');
+const routes = require('./routes');
+const { setupWebsocket } = require('./websocket')
 
 
 //MÉTODOS HTTP: GET/POST/PUT/DELETE
@@ -13,6 +15,9 @@ const routes = require('./routes')
 //BODY: request.body (DADOS PARA CRIAÇÃO OU ALTERAÇÃO DE UM REGISTRO)
 
 const app = express();
+const server = http.Server(app);
+
+setupWebsocket(server);
 
 //MONGODB (NÃO-RELACIONAL)
 mongoose.connect('mongodb+srv://joaodematejr:k63ABBbdGK9MEcuc@cluster0-oh4t9.mongodb.net/omniStack10?retryWrites=true&w=majority', {
@@ -23,5 +28,5 @@ mongoose.connect('mongodb+srv://joaodematejr:k63ABBbdGK9MEcuc@cluster0-oh4t9.mon
 app.use(cors())
 app.use(express.json());
 app.use(routes);
-app.listen(9000);
+server.listen(9000);
 
